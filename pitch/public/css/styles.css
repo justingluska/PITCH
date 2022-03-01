@@ -11315,3 +11315,56 @@ body.sb-sidenav-toggled #wrapper #sidebar-wrapper {
     margin-left: -15rem;
   }
 }
+
+form.search input[type=text] {
+  padding: 10px;
+  font-size: 20px;
+  border: 1px solid grey;
+  width: 80%;
+  background: #f0f0f0;
+}
+
+form.search::after {
+  content: "";
+  clear: both;
+}
+
+form.search button {
+  float: right;
+  width: 15%;
+  color: white;
+  padding: 10px;
+  padding-left: none;
+  border: 1px solid grey;
+  cursor: pointer;
+  border-left: none;
+  font-size: 20px;
+  background: #0e6dfd;
+  display: table;
+}
+
+form.search button:hover {
+  color: white;
+}
+
+/* #SearchBtn {
+  display: table;
+  margin: 0 auto;
+  background-color: darkgreen;
+  border: none;
+  font-size: 10px;
+  color: white;
+  border: 2px solid green;
+}
+
+#SearchBtn:hover {
+  background-color: green;
+  color: white;
+  border: 2px solid darkgreen;
+}
+
+#SearchBar {
+  display: table;
+  margin: 0 auto;
+  float: left;
+} */
