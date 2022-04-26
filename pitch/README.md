@@ -1,3 +1,46 @@
+# Welcome to PITCH
+
+Follow the instructions to install and run the PITCH web application.
+
+# Installing Node.js
+
+If you don't already have the newest version of Node.js install on your machine...
+
+Follow this link: https://nodejs.org/en/
+
+Install newest version of Node.js for your machine's OS.
+
+# Cloning the PITCH Repo
+
+  ## For MacOS, open Terminal and run:
+    git clone https://github.com/justingluska/PITCH.git
+  
+  ## For Windows, open PowerShell and run:
+    git clone https://github.com/justingluska/PITCH.git
+    
+# Running the PITCH Web App
+
+While still in either Terminal/PowerShell, navigate to the directory titled "pitch" within the repo you just cloned.
+
+## Run the command
+    npm start
+
+The PITCH web app should run and open in browser.
+
+## If the Web App does not open
+
+This web app is run on localhost, please make sure that your running on port 3000.
+
+To do this, check in the browser reads: http://localhost:3000/
+
+Otherwise, adjust the port number within the URL in your browser.
+
+# Questions?
+
+Please contact either Brian, Ryan, Justin, or Nolan for help.
+
+# ________________________________________________________________________________________________________________
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
